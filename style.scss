@@ -204,7 +204,56 @@ nav ul {
     font-size: 3em;
     margin: 0;
   }
+  nav ul {
+    width: 40%;
+  }
   .sub-head {
     font-size: 1.4em;
+    margin-bottom: 12%;
+  }
+  .blue-container {
+    margin: 0;
+    img {
+      width: 20%;
+    }
+    ul {
+      display: flex;
+      margin-top: -1em;
+      align-items: center;
+      li {
+        margin-bottom: 0;
+        img.last-img {
+          width: 11%;
+          margin-top: -6px;
+        }
+        p {
+          padding: 0 0.8em;
+        }
+      }
+    }
+  }
+  .grey-container ul {
+    display: flex;
+    gap: 0 5%;
+    blockquote {
+      text-align: center;
+      margin: 1em 0;
+    }
+  }
+}
+@media only screen and (min-width: 875px) {
+  .sub-head {
+    margin-bottom: 15%;
+  }
+  .blue-container ul {
+    margin: 0 0 4% 0;
+  }
+  .grey-container ul {
+    margin: 4% 0 0 0;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cta {
+    width: 50%;
   }
 }
