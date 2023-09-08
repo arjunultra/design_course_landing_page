@@ -4,16 +4,117 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.min.css" />
   </head>
   <body>
     <div class="container">
-      <img class="logo" src="./assets/logo.svg" alt="23andfour logo" />
-      <nav>
-        <a href="#" target="_blank" rel="noopener noreferrer">Home</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Services</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">About</a>
-        <a href="#" target="_blank" rel="noopener noreferrer">Contact</a>
-      </nav>
+      <header>
+        <img class="logo" src="./assets/logo.svg" alt="23andfour logo" />
+        <nav>
+          <a class="hide-desktop" href="#"
+            ><img
+              class="menu"
+              id="menu"
+              src="./assets/ham.svg"
+              alt="toggle menu"
+          /></a>
+          <ul class="show-desktop hide-desktop" id="nav-container">
+            <li id="exit" class="exit-btn hide-desktop">
+              <img src="./assets/exit.svg" alt="exit nav" />
+            </li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <img class="server" src="./assets/server.svg" alt="server graphic" />
+        <h1>Web Hosting for the Modern Era</h1>
+        <p class="sub-head">Go serverless and pay for what you use.</p>
+        <img
+          class="hide-mobile show-desktop"
+          src="./assets/scroll.svg"
+          alt="scroll animation"
+        />
+      </section>
     </div>
+    <div class="blue-container">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="./assets/icon-1.svg" alt="calendar icon" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio eos voluptatibus doloribus porro. In inventore eum,
+              ipsam odio dolorem saepe.
+            </p>
+          </li>
+          <li>
+            <img src="./assets/icon-2.svg" alt="wallet icon" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio eos voluptatibus doloribus porro. In inventore eum,
+              ipsam odio dolorem saepe.
+            </p>
+          </li>
+          <li>
+            <img src="./assets/icon-3.svg" alt="phone icon" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio eos voluptatibus doloribus porro. In inventore eum,
+              ipsam odio dolorem saepe.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="grey-container">
+      <div class="container">
+        <ul>
+          <li>
+            <figure>
+              <img src="./assets/user1.png" alt="user testimonial picture" />
+              <blockquote>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, vel quidem omnis dolore aliquam cupiditate ex ullam
+                unde tempore culpa.
+              </blockquote>
+              <figcaption>- Jane Doe</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="./assets/user2.png" alt="user testimonial picture" />
+              <blockquote>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, vel quidem omnis dolore aliquam cupiditate ex ullam
+                unde tempore culpa.
+              </blockquote>
+              <figcaption>- Jane Doe</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h2>Start your free trail now!</h2>
+      <button class="cta">Get Started</button>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="container">
+          <a href="#">
+            <img class="logo" src="./assets/logo-white.svg" alt="logo"
+          /></a>
+          <address>Melrose Place,90210 <br />USA</address>
+          <ul class="footer-links">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
