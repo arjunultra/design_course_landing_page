@@ -45,6 +45,12 @@ h1,
   padding: 4em 0 2em;
   border-top-left-radius: 40px;
   transform: skewY(-2deg);
+  #video {
+    margin: auto;
+    height: 35vh;
+    width: 90%;
+    display: block;
+  }
   img {
     width: 14%;
   }
@@ -250,6 +256,11 @@ nav ul {
   .sub-head {
     margin-bottom: 15%;
   }
+  .blue-container {
+    #video {
+      display: none;
+    }
+  }
   .blue-container ul {
     margin: 0 0 4% 0;
   }
@@ -261,6 +272,13 @@ nav ul {
   }
 }
 @media only screen and (min-width: 1024px) {
+  .blue-container {
+    #video {
+      display: block;
+      height: 55vh;
+      width: 40vw;
+    }
+  }
   .cta {
     width: 50%;
   }
@@ -318,9 +336,28 @@ nav ul {
   }
   .blue-container {
     padding: 7em 0 2em;
+    text-align: center;
+    font-size: 0.2rem;
+    #video {
+      display: block;
+      height: 50vh;
+      width: 40vw;
+    }
+    ul li {
+      width: 100%;
+    }
+    ul li p {
+      max-width: 100%;
+      max-height: 100%;
+      font-size: 1.5rem;
+    }
+    ul li img {
+      width: 30em;
+    }
     .last-img {
       width: 8%;
-      margin-top: -4px;
+      height: 29em;
+      margin-top: 1em;
     }
     img {
       width: 15%;
