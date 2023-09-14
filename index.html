@@ -22,14 +22,14 @@
             <li id="exit" class="exit-btn hide-desktop">
               <img src="./assets/exit.svg" alt="exit nav" />
             </li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#footer">Contact</a></li>
           </ul>
         </nav>
       </header>
-      <section>
+      <section id="home">
         <img class="server" src="./assets/server.svg" alt="server graphic" />
         <h1>Web Hosting for the Modern Era</h1>
         <p class="sub-head">Go serverless and pay for what you use.</p>
@@ -40,79 +40,87 @@
         />
       </section>
     </div>
-    <div class="blue-container">
-      <div class="container">
-        <ul>
-          <li>
-            <img src="./assets/icon-1.svg" alt="calendar icon" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio eos voluptatibus doloribus porro. In inventore eum,
-              ipsam odio dolorem saepe.
-            </p>
-          </li>
-          <li>
-            <img src="./assets/icon-2.svg" alt="wallet icon" />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio eos voluptatibus doloribus porro. In inventore eum,
-              ipsam odio dolorem saepe.
-            </p>
-          </li>
-          <li>
-            <img class="last-img" src="./assets/icon-3.svg" alt="phone icon" />
-            <p class="lastimg-p">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio eos voluptatibus doloribus porro. In inventore eum,
-              ipsam odio dolorem saepe.
-            </p>
-          </li>
-        </ul>
+    <section id="services">
+      <div class="blue-container">
+        <div class="container">
+          <ul>
+            <li>
+              <img src="./assets/icon-1.svg" alt="calendar icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio eos voluptatibus doloribus porro. In inventore eum,
+                ipsam odio dolorem saepe.
+              </p>
+            </li>
+            <li>
+              <img src="./assets/icon-2.svg" alt="wallet icon" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio eos voluptatibus doloribus porro. In inventore eum,
+                ipsam odio dolorem saepe.
+              </p>
+            </li>
+            <li>
+              <img
+                class="last-img"
+                src="./assets/icon-3.svg"
+                alt="phone icon"
+              />
+              <p class="lastimg-p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Distinctio eos voluptatibus doloribus porro. In inventore eum,
+                ipsam odio dolorem saepe.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <!-- iframe -->
+        <iframe
+          class="hide-desktop"
+          id="video"
+          src="https://www.youtube.com/embed/8gNrZ4lAnAw?si=HQ_OMSWxO6U9gGNd"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
       </div>
-      <!-- iframe -->
-      <iframe
-        class="hide-desktop"
-        id="video"
-        src="https://www.youtube.com/embed/8gNrZ4lAnAw?si=HQ_OMSWxO6U9gGNd"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="grey-container">
-      <div class="container">
-        <ul>
-          <li>
-            <figure>
-              <img src="./assets/user1.png" alt="user testimonial picture" />
-              <blockquote>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Officia, vel quidem omnis dolore aliquam cupiditate ex ullam
-                unde tempore culpa.
-              </blockquote>
-              <figcaption>- Asa Akira</figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src="./assets/user2.png" alt="user testimonial picture" />
-              <blockquote>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Officia, vel quidem omnis dolore aliquam cupiditate ex ullam
-                unde tempore culpa.
-              </blockquote>
-              <figcaption>- Mark Williams</figcaption>
-            </figure>
-          </li>
-        </ul>
+    </section>
+    <section id="testimonials">
+      <div class="grey-container">
+        <div class="container">
+          <ul>
+            <li>
+              <figure>
+                <img src="./assets/user1.png" alt="user testimonial picture" />
+                <blockquote>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia, vel quidem omnis dolore aliquam cupiditate ex ullam
+                  unde tempore culpa.
+                </blockquote>
+                <figcaption>- Asa Akira</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <img src="./assets/user2.png" alt="user testimonial picture" />
+                <blockquote>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Officia, vel quidem omnis dolore aliquam cupiditate ex ullam
+                  unde tempore culpa.
+                </blockquote>
+                <figcaption>- Mark Williams</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </section>
     <div class="container">
       <h2>Start your free trail now!</h2>
       <button class="cta">Get Started</button>
     </div>
-    <footer>
+    <footer id="footer">
       <div class="footer-container">
         <div class="container">
           <a href="#">
